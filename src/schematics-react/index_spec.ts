@@ -9,7 +9,7 @@ const collectionPath = path.join(__dirname, '../collection.json');
 describe('schematics-react', () => {
   it('works', () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
-    const tree = runner.runSchematic('schematics-react', {}, Tree.empty());
+    const tree = runner.runSchematic('react-new-comp', {}, Tree.empty());
 
     expect(tree.files).toEqual([]);
   });
