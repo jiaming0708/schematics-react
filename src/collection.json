@@ -1,10 +1,10 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "react-new-comp": {
-      "description": "snapask new component",
-      "factory": "./schematics-react/index#schematicsReact",
-      "schema": "./schematics-react/schema.json"
+    "component": {
+      "description": "new component",
+      "factory": "./component/index",
+      "schema": "./component/schema.json"
     }
   }
 }

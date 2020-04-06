@@ -2,7 +2,7 @@ import { Tree } from '@angular-devkit/schematics';
 import { SchematicTestRunner } from '@angular-devkit/schematics/testing';
 import * as path from 'path';
 
-const GENERATE_COMONENT = 'react-new-comp';
+const GENERATE_COMONENT = 'component';
 
 const collectionPath = path.join(__dirname, '../collection.json');
 

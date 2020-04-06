@@ -15,7 +15,7 @@ function parseName(path: string, name: string) {
 
 // You don't have to export the function as default. You can also have more than one rule factory
 // per file.
-export function schematicsReact(_options: OptionSchema): Rule {
+export default function(_options: OptionSchema): Rule {
   return (_tree: Tree, _context: SchematicContext) => {
     if (!_options.path) {
       _options.path = '';
