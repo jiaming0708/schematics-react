@@ -1,0 +1,11 @@
+import React from 'react';
+import { } from 'prop-types';
+
+const <%= classify(name) %> = ({ }) => {
+  
+};
+
+<%= classify(name) %>.propTypes = {
+};
+
+export default <%= classify(name) %>;

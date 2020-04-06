@@ -1,0 +1,6 @@
+{
+  "name": "<%= dasherize(name) %>",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./<%= dasherize(name) %>.jsx"
+}
