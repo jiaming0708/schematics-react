@@ -12,8 +12,7 @@
       "$default": {
         "$source": "argv",
         "index": 1
-      },
-      "x-prompt": "What path would you like to put for the component?"
+      }
     },
     "name": {
       "type": "string",
@@ -22,7 +21,7 @@
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "What name would you like to use for the component?"
+      "x-prompt": "name for component(can include path)?"
     }
   },
   "required": [
