@@ -1,6 +1,7 @@
 {
   "name": "@jiaming0708/schematics-react",
   "version": "0.0.1",
+  "private": false,
   "description": "Schematics specific for React",
   "scripts": {
     "build:watch": "tsc -p tsconfig.json --watch",
